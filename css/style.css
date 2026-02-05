@@ -31,7 +31,9 @@ body {
     font-family: 'inter', sans-serif;
 }
 
-
+.titre {
+    text-align: center;
+}
 
 
 /* HEADER */
@@ -118,7 +120,8 @@ footer {
     margin: 0 auto;
     height: 3px;
     width: 70px;
-    background-color: #06b6d4;;
+    background-color: #06b6d4;
+    margin-bottom: 40px;
 }
 
 /* INDEX */
@@ -195,7 +198,7 @@ footer {
     font-weight: 250;
     padding: 45px;
     box-shadow: 0 4px 20px rgba(15, 23, 42, 0.8);
-    
+    font-size: large;
     border-radius: 20px;
     border-left: 3px solid #06b6d4;
     border-right: 3px solid #06b6d4;
@@ -217,10 +220,10 @@ footer {
 }
 
 .card-maxime img {
-    height: 175px;
+    height: 200px;
     border-radius: 50%;
     position: absolute;
-    top: 280px;
+    top: 420px;
     left: 600px;
     border: 3px solid #06b6d4;
 }
