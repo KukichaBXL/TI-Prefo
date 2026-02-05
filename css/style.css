@@ -13,9 +13,11 @@ header {
     background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #334155 100%);
     padding: 37px;
     color: #f97316;
-    
-}
+    }
 
+header h1 {
+    text-shadow: 0 4px 16px rgba(251, 146, 60, 0.5);
+}
 
 /* NAV */ 
 
@@ -63,16 +65,13 @@ footer {
 /* CONTAINER */
 
 .container {
-    padding: 20px 250px;
-    margin-left: 100px;
+    padding: 50px 550px;
+    
 }
 
 
 /* INDEX */
 
-.index-blocks {
-    
-}
 
 .index-block {
     background: black;
@@ -84,17 +83,58 @@ footer {
     text-align: center;
     margin: 20px;
     
-    
 }
 
-
+.index-block-b {
+    background: black;
+    padding: 18px;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    margin: 20px;
+    margin-left: 500px;
+}
 
 .index-blocks a {
     color: white;
     text-decoration: none;
 }
 
-
 .index-block p {
     opacity: 0.8;
 }
+
+/* RAPPORT */
+
+/* INTERVIEW */
+
+/* PARCOURS */
+
+.parcours {
+    text-align: center;
+    background-color: beige;
+    font-size: large;
+    line-height: 1.8;
+    padding: 50px;
+    font-weight: 500;
+    background: radial-gradient(circle at 20% 50%, rgba(6, 182, 212, 0.15) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%,rgba(20, 184, 166, 0.15) 0%,transparent 50%),
+    linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #334155 100%);
+    border-radius: 20px;
+    color: white;
+}
+
+.parcours h2 {
+    color: #f97316;
+    text-shadow: 0 4px 16px rgba(251, 146, 60, 0.5);
+}
+
+.parcours h3 {
+    color: #06b6d4;
+}
+
+/* CONCLUSION */
+
+
