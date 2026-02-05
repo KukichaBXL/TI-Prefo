@@ -43,6 +43,7 @@ header {
     padding: 37px;
     color: #f97316;
     width: 100%;
+    box-shadow: 0 5px 20px rgba(15, 23, 42, 1);
     }
 
 header h1 {
@@ -187,6 +188,43 @@ footer {
 
 /* INTERVIEW */
 
+.card-maxime {
+    background-color: #ffffff;
+    font-size: large;
+    line-height: 1.8;
+    font-weight: 250;
+    padding: 45px;
+    box-shadow: 0 4px 20px rgba(15, 23, 42, 0.8);
+    
+    border-radius: 20px;
+    border-left: 3px solid #06b6d4;
+    border-right: 3px solid #06b6d4;
+}
+
+.card-maxime h2 {
+    color: ;
+    text-align: center;
+    color: #1e3a5f;
+}
+.card-maxime h3 {
+    text-align: center;
+    color: #06b6d4;
+}
+
+.card-maxime p {
+    font-weight: 540;
+    font-size: large;
+}
+
+.card-maxime img {
+    height: 175px;
+    border-radius: 50%;
+    position: absolute;
+    top: 280px;
+    left: 600px;
+    border: 3px solid #06b6d4;
+}
+
 /* PARCOURS */
 
 .parcours {
@@ -234,8 +272,6 @@ footer {
 .conclusion h3 {
     text-align: center;
 }
-
-
 
 .conclusion h3 {
     color: #64748b;;
