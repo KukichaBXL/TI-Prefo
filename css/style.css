@@ -59,51 +59,91 @@ footer {
     color: #f97316;
     padding: 30px;
     font-size: 18px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }  
 
+.footer-index {
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #334155 100%);
+    text-align: center;
+    color: #f97316;
+    padding: 30px;
+    font-size: 18px;
+    margin-top: 450px;
+    width: 100%;
+    
+} 
 
 /* CONTAINER */
 
 .container {
-    padding: 50px 550px;
-    
+    padding: 60px 500px;
 }
 
 
 /* INDEX */
 
-
-.index-block {
-    background: black;
-    padding: 18px;
-    height: 200px;
-    width: 200px;
+.box1,
+.box2,
+.box3,
+.box4 {
+    background: radial-gradient(circle at 20% 50%, rgba(6, 182, 212, 0.15) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%,rgba(20, 184, 166, 0.15) 0%,transparent 50%),
+    linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #334155 100%);
+    height: 300px;
+    width: 300px;
     border-radius: 20px;
     color: white;
     text-align: center;
-    margin: 20px;
+    position: absolute;
+    box-shadow: 0 10px 20px rgba(15, 23, 42, 1);
+}
+
+.box1:hover,
+.box2:hover,
+.box3:hover,
+.box4:hover {
+    box-shadow: 10px 10px 20px rgba(15, 23, 42, 1);
+}
+
+.box1 a,
+.box2 a,
+.box3 a,
+.box4 a {
+    color: white;
+    text-decoration: none;
     
 }
 
-.index-block-b {
-    background: black;
-    padding: 18px;
-    height: 200px;
-    width: 200px;
-    border-radius: 20px;
-    color: white;
-    text-align: center;
-    margin: 20px;
-    margin-left: 500px;
-}
-
-.index-blocks a {
-    color: white;
-    text-decoration: none;
-}
-
-.index-block p {
+.box1 p,
+.box2 p,
+.box3 p,
+.box4 p {
     opacity: 0.8;
+}
+
+.box2 {
+    left: 1100px;
+}
+
+.box3 {
+    bottom: 80px;
+}
+.box4 {
+    left: 1100px;
+    bottom: 80px;
+}
+
+.box1 h1,
+.box2 h1,
+.box3 h1,
+.box4 h1 {
+    padding-top: 40px;
+}
+
+.boxs {
+    margin-bottom: 200px;
 }
 
 /* RAPPORT */
