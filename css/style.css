@@ -65,27 +65,29 @@ nav {
     position: fixed;
     width: 200px;
     height: 300px;
+    
+    
 }
 
 nav ul {
     list-style: none;
-}
+    }
 
 nav ul li {
     padding: 10px;
-}
+    }
 
 nav li a {
     color: white;
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
-    letter-spacing: 2px
-    
+    letter-spacing: 2px;
 }
 
 nav li a:hover {
     color: #fb923c;
+    
 }
 
 /* FOOTER */
@@ -119,7 +121,7 @@ footer {
 
 .container-subtitle {
     margin: 0 auto;
-    height: 3px;
+    height: 5px;
     width: 70px;
     background-color: #06b6d4;
     margin-bottom: 40px;
@@ -141,18 +143,20 @@ footer {
     linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #334155 100%);
     height: 300px;
     width: 300px;
-    border-radius: 20px;
+    border-radius: 20%;
     color: white;
     text-align: center;
     position: absolute;
     box-shadow: 0 10px 20px rgba(15, 23, 42, 1);
+    transition: all 0.3s;
 }
 
 .box1:hover,
 .box2:hover,
 .box3:hover,
 .box4:hover {
-    
+    box-shadow:0px 20px 10px rgba(15, 23, 42, 1);
+    transform: translateY(-10px);
 }
 
 .box1 a,
@@ -256,6 +260,12 @@ footer {
     left: 500px;
 }
 
+.qa-final {
+    height: 350px;
+    width: 400px;
+    font-size: large;
+    line-height: 1.8;
+}
 
 
 .question {
@@ -332,11 +342,10 @@ footer {
 .conclusion h2,
 .conclusion h3 {
     text-align: center;
-}
-
-.conclusion h3 {
     color: #1e3a5f;
 }
+
+
 
 .conclusion p strong {
     color: #0f172a;
