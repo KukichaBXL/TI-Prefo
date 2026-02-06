@@ -66,17 +66,15 @@ nav {
     position: fixed;
     width: 200px;
     height: 300px;
-    
-    
 }
 
 nav ul {
     list-style: none;
-    }
+}
 
 nav ul li {
     padding: 10px;
-    }
+}
 
 nav li a {
     color: white;
@@ -88,7 +86,6 @@ nav li a {
 
 nav li a:hover {
     color: #fb923c;
-    
 }
 
 /* FOOTER */
@@ -211,6 +208,7 @@ footer {
     border-radius: 20px;
     border-left: 3px solid #06b6d4;
     border-right: 3px solid #06b6d4;
+    margin-bottom: 85px;
 }
 
 .rapport-intro strong {
@@ -220,6 +218,62 @@ footer {
 .rapport-intro img {
     position: relative;
     left: 275px;
+    top: 10px
+}
+
+.entreprise-id {
+    padding: 50px;
+}
+
+
+.entreprise-box {
+    background-color: #ffffff;
+    font-size: large;
+    line-height: 1.8;
+    font-weight: 250;
+    box-shadow: 0 4px 20px rgba(15, 23, 42, 0.8);
+    font-size: large;
+    border-radius: 20px;
+    border-left: 3px solid #06b6d4;
+    border-right: 3px solid #06b6d4;
+    text-align: center;
+    height: 185px;
+    width: 200px;
+    padding: 8px;
+    position: absolute;
+    margin-left: 70px;
+    transition: all 0.3s;
+}
+
+.entreprise-box-b {
+    text-align: center;
+    background-color: #ffffff;
+    font-size: large;
+    line-height: 2;
+    font-weight: 250;
+    box-shadow: 0 4px 20px rgba(15, 23, 42, 0.8);
+    font-size: large;
+    border-radius: 20px;
+    border-left: 3px solid #06b6d4;
+    border-right: 3px solid #06b6d4;
+    text-align: center;
+    height: 185px;
+    width: 200px;
+    padding: 8px;
+    position: relative;
+    left: 450px;
+    transition: all 0.3s;
+}
+
+.entreprise-id h2 {
+    color: #1e3a5f;
+}
+
+.entreprise-box:hover,
+.entreprise-box-b:hover {
+    border: 3px solid #f97316;
+    transform: translateY(-20px);
+    box-shadow:1px 12px 20px 7px rgba(15, 23, 42, 0.8);
 }
 
 /* INTERVIEW */
