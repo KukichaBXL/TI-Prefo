@@ -34,6 +34,7 @@ body {
 
 .titre {
     text-align: center;
+    color: #0f172a;
 }
 
 
@@ -198,6 +199,28 @@ footer {
 }
 
 /* RAPPORT */
+
+.rapport-intro {
+    background-color: #ffffff;
+    font-size: large;
+    line-height: 1.8;
+    font-weight: 250;
+    padding: 45px;
+    box-shadow: 0 4px 20px rgba(15, 23, 42, 0.8);
+    font-size: large;
+    border-radius: 20px;
+    border-left: 3px solid #06b6d4;
+    border-right: 3px solid #06b6d4;
+}
+
+.rapport-intro strong {
+    color: #0f172a;
+}
+
+.rapport-intro img {
+    position: relative;
+    left: 275px;
+}
 
 /* INTERVIEW */
 
