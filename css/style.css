@@ -41,12 +41,14 @@ body {
 /* HEADER */
 
 header {
-    margin: 0 auto;
-    text-align: center;
-    background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #334155 100%);
+    background-image: url(/images/pexels-earano-1350197.avif);
+    background-size: cover;
+    background-position: center;
     padding: 37px;
     color: #f97316;
     width: 100%;
+    margin: 0 auto;
+    text-align: center;
     box-shadow: 0 5px 20px rgba(15, 23, 42, 1);
     }
 
@@ -303,6 +305,7 @@ footer {
 .card-maxime h3 {
     text-align: center;
     color: #06b6d4;
+    font-weight: 600;
 }
 
 .card-maxime p {
