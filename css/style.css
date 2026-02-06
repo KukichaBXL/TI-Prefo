@@ -68,6 +68,7 @@ nav {
     position: fixed;
     width: 200px;
     height: 300px;
+    box-shadow: 0 5px 20px rgba(15, 23, 42, 1);
 }
 
 nav ul {
@@ -76,6 +77,11 @@ nav ul {
 
 nav ul li {
     padding: 10px;
+}
+
+nav ul li img {
+    height: 40px;
+    margin-left: 25px;
 }
 
 nav li a {
@@ -96,10 +102,9 @@ footer {
     background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #334155 100%);
     text-align: center;
     color: #f97316;
-    padding: 30px;
+    padding: 25px;
     font-size: 18px;
     bottom: 0;
-    
 }  
 
 .footer-index {
@@ -110,8 +115,26 @@ footer {
     font-size: 18px;
     margin-top: 500px;                                             
     width: 100%;
-    
 } 
+
+footer img {
+    height: 50px;
+    position: relative;
+    top: 15px;
+}
+
+footer img {
+    height: 50px;
+    position: relative;
+    top: 15px;
+}
+
+.footer-index img {
+    height: 50px;
+    position: relative;
+    top: 15px;
+}
+
 
 /* CONTAINER */
 
@@ -345,6 +368,7 @@ footer {
 .card-maxime p {
     font-weight: 550;
     font-size: large;
+    color: #1e3a5f;
 }
 
 .card-maxime img {
