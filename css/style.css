@@ -96,6 +96,10 @@ nav li a:hover {
     color: #fb923c;
 }
 
+nav {
+    border-radius: 0 30px 30px 0;
+}
+
 /* FOOTER */
 
 footer {
@@ -178,7 +182,7 @@ footer img {
 .box2:hover,
 .box3:hover,
 .box4:hover {
-    box-shadow:0px 20px 10px rgba(15, 23, 42, 1);
+    box-shadow: 0px 30px 40px rgba(15, 23, 42, 1);
     transform: translateY(-10px);
 }
 
@@ -218,6 +222,18 @@ footer img {
 
 .boxs {
     margin-bottom: 200px;
+}
+
+.box2 img {
+    height: 115px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 20px;
+    border: 2px solid #06b6d4;
+}
+
+.box2 {
+    position: absolute;
 }
 
 /* RAPPORT */
@@ -493,10 +509,9 @@ footer img {
     color: #1e3a5f;
 }
 
-
-
 .conclusion p strong {
-    color: #0f172a;
+    color: #1e3a5f;
+    font-weight: 650;
 }
 
 .conclusion-max {
