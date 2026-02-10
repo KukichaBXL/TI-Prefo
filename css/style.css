@@ -1,11 +1,4 @@
 @font-face {
-  font-family: "Sora";
-  src: url("font/sora-regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
   font-family: "Inter";
   src: url("font/inter_18pt-Regular.ttf") format("truetype");
   font-weight: normal;
@@ -134,12 +127,6 @@ footer img {
   top: 15px;
 }
 
-footer img {
-  height: 50px;
-  position: relative;
-  top: 15px;
-}
-
 .footer-index img {
   height: 50px;
   position: relative;
@@ -201,14 +188,6 @@ footer img {
   transform: translateY(-10px);
 }
 
-.box1 a,
-.box2 a,
-.box3 a,
-.box4 a {
-  color: white;
-  text-decoration: none;
-}
-
 .box2 {
   left: 1100px;
 }
@@ -237,20 +216,12 @@ footer img {
   margin-bottom: 200px;
 }
 
-.box2 {
-  position: absolute;
-}
-
 .box2 img {
   height: 115px;
   border-radius: 50%;
   position: relative;
   bottom: 20px;
   border: 2px solid #06b6d4;
-}
-
-.box3 {
-  position: absolute;
 }
 
 .box3 img {
@@ -306,11 +277,7 @@ footer img {
 
 .entreprise-box {
   background-color: #ffffff;
-  font-size: large;
-  line-height: 1.8;
-  font-weight: 250;
   box-shadow: 0 4px 20px rgba(15, 23, 42, 0.8);
-  font-size: large;
   border-radius: 20px;
   border-left: 3px solid #06b6d4;
   border-right: 3px solid #06b6d4;
@@ -323,13 +290,8 @@ footer img {
 }
 
 .entreprise-box-b {
-  text-align: center;
   background-color: #ffffff;
-  font-size: large;
-  line-height: 2;
-  font-weight: 250;
   box-shadow: 0 4px 20px rgba(15, 23, 42, 0.8);
-  font-size: large;
   border-radius: 20px;
   border-left: 3px solid #06b6d4;
   border-right: 3px solid #06b6d4;
@@ -353,11 +315,9 @@ footer img {
   box-shadow: 1px 12px 20px 7px rgba(15, 23, 42, 0.8);
 }
 
-.conclusion-entreprise strong {
-  color: #06b6d4;
-}
+/* BLUE CARD */
 
-.conclusion-entreprise {
+.blue-card {
   margin-top: 45px;
   background-color: beige;
   font-size: large;
@@ -381,21 +341,25 @@ footer img {
   box-shadow: 0 10px 20px rgba(15, 23, 42, 1);
 }
 
-.conclusion-entreprise h2 {
+.blue-card h2 {
   text-align: center;
   color: #f97316;
   text-shadow: 0 4px 16px rgba(251, 146, 60, 0.5);
   font-family: "Sora", sans-serif;
 }
 
-.conclusion-entreprise h3 {
+.blue-card h3 {
   text-align: center;
   color: #06b6d4;
 }
 
-.conclusion-entreprise img {
+.blue-card img {
   position: relative;
   left: 235px;
+}
+
+.blue-card strong {
+  color: #06b6d4;
 }
 
 /* INTERVIEW */
@@ -500,42 +464,6 @@ footer img {
   font-weight: 550;
 }
 
-/* PARCOURS */
-
-.parcours {
-  text-align: center;
-  background-color: beige;
-  font-size: large;
-  line-height: 1.8;
-  padding: 50px;
-  font-weight: 540;
-  background:
-    radial-gradient(
-      circle at 20% 50%,
-      rgba(6, 182, 212, 0.15) 0%,
-      transparent 50%
-    ),
-    radial-gradient(
-      circle at 80% 80%,
-      rgba(20, 184, 166, 0.15) 0%,
-      transparent 50%
-    ),
-    linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #334155 100%);
-  border-radius: 20px;
-  color: white;
-  box-shadow: 0 10px 20px rgba(15, 23, 42, 1);
-}
-
-.parcours h2 {
-  color: #f97316;
-  text-shadow: 0 4px 16px rgba(251, 146, 60, 0.5);
-  font-family: "Sora", sans-serif;
-}
-
-.parcours h3 {
-  color: #06b6d4;
-}
-
 /* CONCLUSION */
 
 .conclusion {
@@ -561,45 +489,4 @@ footer img {
 .conclusion p strong {
   color: #1e3a5f;
   font-weight: 650;
-}
-
-.conclusion-max {
-  margin-top: 45px;
-  background-color: beige;
-  font-size: large;
-  line-height: 1.8;
-  padding: 50px;
-  font-weight: 540;
-  background:
-    radial-gradient(
-      circle at 20% 50%,
-      rgba(6, 182, 212, 0.15) 0%,
-      transparent 50%
-    ),
-    radial-gradient(
-      circle at 80% 80%,
-      rgba(20, 184, 166, 0.15) 0%,
-      transparent 50%
-    ),
-    linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #334155 100%);
-  border-radius: 20px;
-  color: white;
-  box-shadow: 0 10px 20px rgba(15, 23, 42, 1);
-}
-
-.conclusion-max h2 {
-  text-align: center;
-  color: #f97316;
-  text-shadow: 0 4px 16px rgba(251, 146, 60, 0.5);
-  font-family: "Sora", sans-serif;
-}
-
-.conclusion-max h3 {
-  text-align: center;
-  color: #06b6d4;
-}
-
-.conclusion-max strong {
-  color: #06b6d4;
-  font-style: italic;
 }
